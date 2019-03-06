@@ -1,14 +1,1 @@
-[
-    {
-        "nombre": "arroz"
-    },
-    {
-        "nombre": "azucar"
-    },
-    {
-        "nombre": "panela"
-    },
-    {
-        "nombre": "chocolate"
-    }
-]
+[{"nombre":"chocolate"},{"nombre":"sal"},{"nombre":" cafe"},{"nombre":" mango"},{"nombre":" papapya","cantidada disponible":25}]
