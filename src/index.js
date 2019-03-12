@@ -8,7 +8,9 @@ const app = express()
 app.use(express.json())
 //rutas
 
-app.get("/producto/:nombre?", (req, res) => {
+app.use("/api",require("./routs/index.route"))
+
+/*app.get("/producto/:nombre?", (req, res) => {
 
     let productos = JSON.parse(fs.readFileSync("src/db/productos.json", "utf8"))
     //si el parametro existe
@@ -70,7 +72,7 @@ app.put("/producto/:nombre", (req, res) => {
 })
 app.get("/usuario", (req, res) => {
     res.send("desde get usuario")
-})
+})*/
 
 
 //METODO QUE PERMITE AL SERVIDOR WEDE ESCUCHAR EN UN PUERTO ESPEFICIO
